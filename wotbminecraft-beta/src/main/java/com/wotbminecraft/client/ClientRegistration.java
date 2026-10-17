@@ -3,6 +3,7 @@ package com.wotbminecraft.client;
 import com.wotbminecraft.WotbMinecraft;
 import com.wotbminecraft.init.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.Mod;
@@ -14,7 +15,15 @@ public class ClientRegistration {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        ModelLoader.setCustomModelResourceLocation(ModItems.TANK_SPAWNER, 0,
-                new ModelResourceLocation(WotbMinecraft.MODID + ":tank_spawner", "inventory"));
+        registerItemModel(ModItems.TANK_SPAWNER);
+        registerItemModel(ModItems.TANK_AMMO);
+        registerItemModel(ModItems.TANK_REPAIR_KIT);
+    }
+
+    private static void registerItemModel(Item item) {
+        if (item.getRegistryName() != null) {
+            ModelLoader.setCustomModelResourceLocation(item, 0,
+                    new ModelResourceLocation(item.getRegistryName(), "inventory"));
+        }
     }
 }

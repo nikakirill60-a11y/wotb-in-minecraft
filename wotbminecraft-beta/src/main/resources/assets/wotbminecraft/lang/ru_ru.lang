@@ -1,5 +1,12 @@
-item.wotbminecraft.tank_spawner.name=Спавнер бета-танка
-entity.wotbminecraft.tank.name=Бета-танк
+item.wotbminecraft.tank_spawner.name=Спавнер боевого танка
+item.wotbminecraft.tank_ammo.name=Танковый боекомплект
+item.wotbminecraft.tank_repair_kit.name=Танковый ремкомплект (Ключ)
+entity.wotbminecraft.tank.name=Боевой танк (WoTB)
 entity.wotbminecraft.tank_shell.name=Танковый снаряд
-key.wotbminecraft.fire=Выстрел из танка
+key.wotbminecraft.fire=Выстрел из орудия (также ПКМ)
+key.wotbminecraft.cycle_ammo=Смена типа снаряда (ББ/КС/ОФ)
+key.wotbminecraft.sniper_mode=Снайперский прицел (2x/4x)
+key.wotbminecraft.machine_gun=Спаренный пулемёт
+key.wotbminecraft.engine_boost=Форсаж двигателя
+key.wotbminecraft.camo_switch=Смена камуфляжа танка
 key.categories.wotbminecraft=WoTB x Minecraft

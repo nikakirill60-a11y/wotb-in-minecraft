@@ -2,13 +2,13 @@
   {
     "modid": "wotbminecraft",
     "name": "WoTB x Minecraft",
-    "description": "Beta: drivable tank for Minecraft 1.12.2. Placeholder model - custom tank model coming soon.",
-    "version": "0.1.0-beta",
+    "description": "Drivable World of Tanks Blitz tank for Minecraft 1.12.2: AP/HEAT/HE shells, armor & penetration system, sniper scope, coaxial MG, engine boost, repair kit, and custom HUD.",
+    "version": "0.2.0-beta",
     "mcversion": "1.12.2",
     "url": "",
     "updateUrl": "",
     "authorList": ["wotbminecraft"],
-    "credits": "Beta placeholder model made of boxes",
+    "credits": "WoTB x Minecraft Project",
     "logoFile": "",
     "screenshots": [],
     "dependencies": []

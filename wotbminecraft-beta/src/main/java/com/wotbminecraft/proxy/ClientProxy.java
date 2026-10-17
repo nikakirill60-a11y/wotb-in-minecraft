@@ -1,5 +1,6 @@
 package com.wotbminecraft.proxy;
 
+import com.wotbminecraft.client.gui.TankHudOverlay;
 import com.wotbminecraft.client.input.ModKeyBindings;
 import com.wotbminecraft.client.render.RenderTank;
 import com.wotbminecraft.client.render.RenderTankShell;
@@ -22,5 +23,6 @@ public class ClientProxy extends CommonProxy {
     public void init(FMLInitializationEvent event) {
         super.init(event);
         ModKeyBindings.init();
+        TankHudOverlay.init();
     }
 }

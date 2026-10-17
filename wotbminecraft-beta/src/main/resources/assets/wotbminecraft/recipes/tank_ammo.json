@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "GGG",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "G": { "item": "minecraft:gunpowder" }
+  },
+  "result": {
+    "item": "wotbminecraft:tank_ammo",
+    "count": 2
+  }
+}

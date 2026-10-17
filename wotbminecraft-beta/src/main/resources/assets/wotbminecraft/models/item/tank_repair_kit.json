@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wotbminecraft:items/tank_repair_kit"
+  }
+}

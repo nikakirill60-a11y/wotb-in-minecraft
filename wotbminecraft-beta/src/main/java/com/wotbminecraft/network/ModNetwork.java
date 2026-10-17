@@ -12,5 +12,6 @@ public class ModNetwork {
 
     public static void init() {
         INSTANCE.registerMessage(PacketFireTank.Handler.class, PacketFireTank.class, 0, Side.SERVER);
+        INSTANCE.registerMessage(PacketTankAction.Handler.class, PacketTankAction.class, 1, Side.SERVER);
     }
 }

@@ -1,5 +1,12 @@
-item.wotbminecraft.tank_spawner.name=Beta Tank Spawner
-entity.wotbminecraft.tank.name=Beta Tank
+item.wotbminecraft.tank_spawner.name=Battle Tank Spawner
+item.wotbminecraft.tank_ammo.name=Tank Ammo Rack
+item.wotbminecraft.tank_repair_kit.name=Tank Repair Kit (Wrench)
+entity.wotbminecraft.tank.name=Battle Tank (WoTB)
 entity.wotbminecraft.tank_shell.name=Tank Shell
-key.wotbminecraft.fire=Fire Tank Cannon
+key.wotbminecraft.fire=Fire Tank Cannon (also Right-Click)
+key.wotbminecraft.cycle_ammo=Cycle Shell Type (AP/HEAT/HE)
+key.wotbminecraft.sniper_mode=Sniper Scope (2x/4x)
+key.wotbminecraft.machine_gun=Coaxial Machine Gun
+key.wotbminecraft.engine_boost=Engine Boost
+key.wotbminecraft.camo_switch=Cycle Tank Camouflage
 key.categories.wotbminecraft=WoTB x Minecraft

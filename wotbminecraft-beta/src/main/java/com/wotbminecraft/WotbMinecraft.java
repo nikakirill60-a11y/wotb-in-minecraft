@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 public class WotbMinecraft {
     public static final String MODID = "wotbminecraft";
     public static final String NAME = "WoTB x Minecraft";
-    public static final String VERSION = "0.1.0-beta";
+    public static final String VERSION = "0.2.0-beta";
 
     @Mod.Instance(MODID)
     public static WotbMinecraft instance;
@@ -28,7 +28,7 @@ public class WotbMinecraft {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
-        logger.info("WoTB x Minecraft BETA: preInit");
+        logger.info("WoTB x Minecraft BETA v" + VERSION + ": preInit");
         ModNetwork.init();
         proxy.preInit(event);
     }
