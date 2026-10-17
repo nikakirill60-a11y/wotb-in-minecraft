@@ -1,0 +1,5 @@
+item.wotbminecraft.tank_spawner.name=Beta Tank Spawner
+entity.wotbminecraft.tank.name=Beta Tank
+entity.wotbminecraft.tank_shell.name=Tank Shell
+key.wotbminecraft.fire=Fire Tank Cannon
+key.categories.wotbminecraft=WoTB x Minecraft

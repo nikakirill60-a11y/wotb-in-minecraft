@@ -1,0 +1,5 @@
+item.wotbminecraft.tank_spawner.name=Спавнер бета-танка
+entity.wotbminecraft.tank.name=Бета-танк
+entity.wotbminecraft.tank_shell.name=Танковый снаряд
+key.wotbminecraft.fire=Выстрел из танка
+key.categories.wotbminecraft=WoTB x Minecraft
